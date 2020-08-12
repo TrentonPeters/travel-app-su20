@@ -65,7 +65,7 @@ inputForm.addEventListener('submit',(e)=>{
                 "longitude":  lon,
                 "dateVisited": "2020-07-20T07:41:34.765Z"
             }
-            fetch('http://localhost:3000/entry', {
+            fetch('/entry/', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',
